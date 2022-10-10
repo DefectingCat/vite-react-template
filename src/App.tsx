@@ -1,10 +1,13 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
+import { RouterProvider } from 'react-router';
+import { createHashRouter } from 'react-router-dom';
+import routes from 'routes';
 
-function App() {
-  const [count, setCount] = useState(0);
-
-  return <div>Hello world</div>;
-}
+const App = () => {
+  return (
+    <>
+      <RouterProvider router={createHashRouter(routes)} />
+    </>
+  );
+};
 
 export default App;
