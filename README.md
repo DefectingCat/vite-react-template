@@ -1,6 +1,12 @@
 # Vite template for React
 
-components:
+Components:
 
 - TypeScript
 - Tailwind CSS
+
+Configuration:
+
+- ESLint
+- Prettier
+- TypeScript basePath
